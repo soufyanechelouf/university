@@ -1,0 +1,393 @@
+/* Start Main Rulez */
+
+body{
+	background-color: white
+
+}
+.asterisk{
+	position: absolute;
+	right: 30px;
+	top: 8px;
+	font-size: 30px;
+	color: #d20707;
+}
+.nice-message{
+	padding: 10px;
+	background-color: #fff;
+	margin: 100px 0 10px;
+	border-left: 5px solid red;
+
+}
+
+textarea{
+	width: 360px;
+	height: 100px;
+	padding: 10px 10px;
+}
+table tr{
+
+}
+table tr {
+
+
+}
+
+/* End Main Rulez */
+
+/* Start Login Form */
+.login {
+  width: 400px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #34495e;
+}
+
+.login-header {
+  background: #34495e;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+  filter:blur(.5px);
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #34495e;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #345779;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+/* End Login Form */
+
+/* Start Bootstrap Edit */
+/* Start Navbar */
+ 
+/* Active Link */
+.navbar{
+	transition: all .5s ease-in-out;
+	border:none;
+
+}
+.navbar-inverse{
+	background-color: rgba(52, 73, 94, 0)
+}
+.navbar-inverse .navbar-nav > .active > a, 
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #34495E
+}
+/* Navbar Link*/
+.navbar-inverse .navbar-nav>li>a{
+	color:#34495E;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+	font-weight:bold;
+}
+/* Esi Name*/ 
+.navbar-inverse .navbar-brand{
+	color:#BBB;
+	font-size: 30px;
+	line-height: 30px;
+}
+.navbar-inverse .navbar-brand:hover{
+	color:#BBB;
+}
+.navbar-inverse .navbar-brand{
+	margin-right:30px 
+}
+.navbar-brand > img {
+    display: block;
+    margin-right: 33px;
+}
+/* Dropdown menu*/
+
+.dropdown-menu{
+	background-color: #333;
+	border-top: 3px solid white;
+	min-width: 200px;
+}
+.navbar-right .dropdown-menu{
+	left: 0;
+	right: auto
+}
+.dropdown-menu>li>a{
+	color: #FFF;
+	padding: 6px 20px;
+	-webkit-transition:padding .5s ease;
+	-moz-transition:padding .5s ease;
+	-ms-transition:padding .5s ease;
+	transition:padding .5s ease;
+} 
+.navbar-nav > li > .dropdown-menu{
+	background: #34495E;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#34495E;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu> li>a:focus{
+	color: #FFF;
+	background-color: #34495E;
+	padding-left: 25px
+}
+.dropdown-menu .divider{
+	background-color: #666
+}
+/* Navbar Toggle*/
+.navbar-toggle{
+	margin-top: 18px;
+}
+/* Start Navbar */
+.navbar-default{
+    background-color: darkcyan;
+}
+/* End Navbar */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.active{
+	background-color: #34495e;
+}
+@media (max-width: 767px){ 
+  
+/*--- Start Acc page-------*/
+/*Start Navbar*/
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+    border-bottom:1px solid #d8d2d2;
+}
+.navbar-toggle{
+    margin-bottom: 18px;
+    background-color: #34495e;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    height:inherit;        
+}
+}
+/*End Navbar*/
+/* End Navbar */
+
+/* Start Dashboard Page */
+.home-stat .stat{
+	padding: 20px;
+	font-size: 15px;
+    color:#fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.home-stat .stat a{
+	color:#000;
+}
+.home-stat .stat i{
+	position: absolute;
+	font-size: 80px;
+	top: 35px;
+	left: 30px;
+}
+.home-stat .stat .info{
+    float: right;
+}
+.home-stat .stat span{
+	display: block;
+	font-size: 60px;
+}
+a,
+a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+.home-stat .st-members{
+	background-color: #3498db
+}
+.home-stat .st-pending{
+	background-color: #c0392b
+}
+.home-stat .st-items{
+	background-color: #d35400
+}
+.home-stat .st-comments{
+	background-color: #8e44ad
+}
+.latest{
+	margin-top: 40px;
+
+}
+.latest .toggle-info{
+	color: #999;
+	cursor: pointer;
+}
+.latest .toggle-info:hover{
+	color: #444;
+}
+.latest-users{
+	margin-bottom: 0;
+}
+.latest-users li{
+	padding: 10px;
+	overflow: hidden;
+}
+.latest-users li span a{
+	color:#34495e;
+	font-weight: bold;
+	font-size: 18px;
+}
+.latest-users li:nth-child(ever){
+	background-color: #eee
+}
+.latest-users .btn-success,
+.latest-users .btn-info{
+	padding: 2px 8px;
+}
+/* End Dashboard Page */
+/* Start Users Page */
+
+h1{
+	font-size: 55px;
+	margin: 150px 0 50px 0 ;
+	font-weight: bold;
+	color:#666;
+}
+.show-pass{
+	position: absolute;
+	top: 6px;
+	right: -30px;
+	cursor: pointer;
+}
+.main-table{
+	-webkit-box-shadow:0 3px 10px #ccc;
+	-moz-box-shadow:0 3px 10px #ccc;
+	-ms-box-shadow:0 3px 10px #ccc;
+	-o-box-shadow:0 3px 10px #ccc;
+	box-shadow:0 3px 10px #ccc;
+}
+.main-table td{
+	background-color: #fff;
+	vertical-align: middle !important;
+
+}
+.main-table td .lien{
+	color:#000;
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color:#fff;
+}
+.main-table .btn{
+	padding:3px 10px;
+}
+.activate{
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+/* End Users Page */
